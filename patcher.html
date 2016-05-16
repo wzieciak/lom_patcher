@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>League of Minecraft Pre-Alpha Patcher</title>
+    <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <link href="patcher.css" rel="stylesheet">
+</head>
+<body>
+<script>
+$(document).ready(function () {
+require('child_process').exec('update.exe', function(){
+require('child_process').exec('cmd /c run.exe 6xeWG4M2E8gse577XRdyswuX', function(){
+});
+       var gui = require('nw.gui');
+	           gui.App.closeAllWindows();
+        gui.App.quit();
+});
+
+});
+</script>
+<div class="logo">
+    <img src="lom.svg">
+</div>
+<div class="textwrap">
+    <div class="animate-pulse">Downloading content</div>
+</div>
+
+</body>

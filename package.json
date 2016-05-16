@@ -1,0 +1,24 @@
+{
+  "main": "patcher.html",
+  "name": "LoM_Client",
+  "description": "Alpha Client",
+  "version": "0.1.1",
+  "keywords": [ "lom", "itplanet" ],
+  "nodejs": true,
+  "window": {
+    "title": "League of Minecraft",
+    "icon": "icon.png",
+    "toolbar": false,
+    "frame": false,
+    "width": 500,
+    "height": 275,
+    "position": "center",
+	"resizable": false
+  },
+  "webkit": {
+    "plugin": true
+  },
+    "engines": {
+    "nw.js": "0.13.4"
+  }
+}

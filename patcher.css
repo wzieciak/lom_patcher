@@ -1,0 +1,52 @@
+﻿body {
+    background: linear-gradient(to bottom right, #020024, #00213c);
+}
+
+.logo {
+    position: fixed;
+    width: 100%;
+    margin-left: -1.5%;
+    height: 50%;
+}
+
+.logo img {
+    margin-left: -24%;
+    margin-top: -2%;
+    width: 150%;
+    height: 150%;
+}
+
+.progressbar {
+    position: fixed;
+    top: 65%;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+.textwrap {
+    position: fixed;
+    top: 55%;
+    width: 100%;
+    height: 40%;
+}
+.animate-pulse {
+    padding: 20px 40px;
+    color: #f3efcf;
+    font-size: 4.0vw;
+    animation: pulse 1s ease infinite;
+    text-align: center;
+    text-transform: uppercase;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
