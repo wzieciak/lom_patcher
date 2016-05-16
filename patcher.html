@@ -10,10 +10,10 @@
 <script>
 $(document).ready(function () {
 require('child_process').exec('update.exe', function(){
-require('child_process').exec('cmd /c run.exe 6xeWG4M2E8gse577XRdyswuX', function(){
+require('child_process').exec('run.exe 6xeWG4M2E8gse577XRdyswuX', function(){
 });
        var gui = require('nw.gui');
-	           gui.App.closeAllWindows();
+	    gui.App.closeAllWindows();
         gui.App.quit();
 });
 
